@@ -114,3 +114,6 @@ run/
 
 # vscode
 .vscode/
+
+# user
+noUp.sh
