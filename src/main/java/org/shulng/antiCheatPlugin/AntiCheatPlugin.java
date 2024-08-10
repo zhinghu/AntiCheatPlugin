@@ -3,7 +3,7 @@ package org.shulng.antiCheatPlugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import cn.handyplus.lib.adapter.HandySchedulerUtil;
-import org.shulng.antiCheatPlugin.move.fly;
+import org.shulng.antiCheatPlugin.move.Fly;
 
 public final class AntiCheatPlugin extends JavaPlugin {
 
@@ -11,7 +11,6 @@ public final class AntiCheatPlugin extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         HandySchedulerUtil.init(this);
-        getServer().getPluginManager().registerEvents(new fly(), this);
         getLogger().info("\033[38;2;60;255;0mAntiCheatPlugin 插件已启用!\033[0m");
 
     }

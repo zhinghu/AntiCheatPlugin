@@ -3,7 +3,7 @@ package org.shulng.antiCheatPlugin.move;
 import org.bukkit.event.player.PlayerMoveEvent;
 import org.bukkit.event.Listener;
 
-public class fly implements Listener {
+public class Fly implements Listener {
     public void onPlayerMove(PlayerMoveEvent event) {
         var player = event.getPlayer();
         var newLocation = event.getTo();
